@@ -63,7 +63,7 @@ while running:
         # Detect single mouse click
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
             if start_rect.collidepoint(event.pos) and not game_started:
-                subprocess.Popen(["python", "Incremental.py"])
+                subprocess.Popen(["python", "test.py"])
                 game_started = True  # Prevent opening multiple windows
             elif options_rect.collidepoint(event.pos):
                 print("Options!")
