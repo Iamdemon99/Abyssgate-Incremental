@@ -86,10 +86,9 @@ class Game:
         # --- Upgrades List ---
         self.upgrades = [
             Upgrade("Spectral Harvester", 15, 0.1, 0.0, "Increases click yield by 0.1"),
-            Upgrade("Lesser Demon Imp", 100, 0, 1.0, "Generates 1 €/s passively"),
-            Upgrade("Abyssal Portal", 1100, 0, 8.0, "Generates 8 €/s passively"),
-            Upgrade("Greater Demon Lord", 2500, 1.0, 50.0, "Big boost to click and passive income"),
-            Upgrade("Demon abyssal", 5000, 100, 500, "Gives HUGE click boost and passive boost"),
+            Upgrade("Lesser Demon Imp", 100, 0, 1.0, "Generates 1 §/s passively"),
+            Upgrade("Abyssal Portal I", 1100, 0, 8.0, "Generates 8 §/s passively"),
+            Upgrade("Greater Demon Lord", 5000, 1.0, 50.0, "Big boost to click and passive income"),
         ]
         
     def _create_placeholder_surface(self):
