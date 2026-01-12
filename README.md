@@ -6,12 +6,43 @@ How do use this game.
 
 THONNY
 
-if you chose thonny then open thonny and click tools, Manage packages and search pygame and install first one.
+Download and install Thonny
+
+Open Thonny
+
+Go to Tools → Manage Packages
+
+Search for pygame
+
+Install pygame
+
+Open the file Main.py
+
+before running anything make sure you have all these files in same folder and thonny too run it.
+
+Click Run (green play button)
+
 
 VISIUAL STUDIO
 
-if visual studio then open visual studio and on left side of screen theres icon called extensions, click that and search pygame and download Pygame Snippets
+Download and install Visual Studio Code
 
-Put incremental.py and background.jpg to downloads folder then run the Main.py
+Open Visual Studio Code
+
+Click the Extensions icon on the left
+
+Search for Python and install it (by Microsoft)
+
+Open the Terminal in your windows (win + write terminal and open it)
+
+Install pygame by typing
+
+in terminal
+
+pip install pygame
+
+and run this too later when pygame is installed for visiual studio
+
+python Main.py
 
 Enjoy :D
